@@ -1,0 +1,45 @@
+* {
+	min-height: 100%;
+	font-family: JetBrains Mono;
+}
+
+html {
+	background-image: url('../assets/backgrounds/black.jpg');
+	background-attachment: fixed;
+	/* background-position: center; */
+	cursor: url('../assets/cursors/Hacked Mod Cursors/Hacked Mod Green/Arrow.cur'), auto;
+}
+
+body {
+	color: white;
+	background: #00000000;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: url('../assets/cursors/Hacked Mod Cursors/Hacked Mod Green/Arrow.cur'), auto;
+}
+
+h1 {
+	color: #00ff00;
+	text-align: center;
+}
+
+h2, h3 {
+	color: #00ff00;
+}
+
+p {
+	color: white;
+	cursor: url('../assets/cursors/Hacked Mod Cursors/Hacked Mod Green/IBeam.cur'), auto;
+}
+
+a {
+	color: #00ff00;
+	text-decoration: none;
+	cursor: url('../assets/cursors/Hacked Mod Cursors/Hacked Mod Green/Hand.cur'), auto;
+}
+
+::selection {
+	background: #00ff00;
+	color: black;
+}
