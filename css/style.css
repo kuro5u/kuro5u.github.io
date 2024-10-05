@@ -4,9 +4,11 @@
 }
 
 html {
-	background-image: url('../assets/backgrounds/black.jpg');
+	background-image: url('../assets/backgrounds/city-lights.jpg');
 	background-attachment: fixed;
-	/* background-position: center; */
+	background-position: center;
+	/* background-size: contain; */
+	/* background-repeat: no-repeat; */
 	cursor: url('../assets/cursors/Hacked Mod Cursors/Hacked Mod Green/Arrow.cur'), auto;
 }
 
