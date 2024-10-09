@@ -1,6 +1,6 @@
 * {
 	min-height: 100%;
-	font-family: JetBrains Mono;
+	font-family: JetBrains Mono, monospace;
 }
 
 html {
@@ -15,7 +15,7 @@ html {
 body {
 	color: white;
 	background: #00000000;
-	max-width: 1000px;
+	max-width: 55%;
 	margin-top: 20px;
 	margin-bottom: 100px;
 	margin-left: auto;
@@ -28,7 +28,11 @@ h1 {
 	text-align: center;
 }
 
-h2, h3 {
+h2 {
+	color: #00ff00;
+}
+
+h3 {
 	color: #00ff00;
 }
 
@@ -50,4 +54,30 @@ summary {
 ::selection {
 	background: #00ff00;
 	color: black;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		max-width: 85%;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	h3 {
+		font-size: 16px;
+	}
+
+	p, a, li, summary, marquee {
+		font-size: 12px;
+	}
+
+	.container .stack span {
+	    font-size: 32px;
+	}
+
+	.categories a {
+		font-size: 12px;
+	}
 }
